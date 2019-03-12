@@ -1,0 +1,9 @@
+#!/bin/bash
+#
+#yl2 täitmine
+echo "Olari Ojamaa" # minu ees ja perenimi
+echo "ISP118" # õppegrupp
+echo "Skriptimise tund on väga tore" # aine kommentaar
+echo "Praegune mulje on hea ning on soov ainet edasi õppida" # praegune mulje ja edasijõudmine 
+#
+# skripti lõpp
