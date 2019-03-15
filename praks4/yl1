@@ -1,0 +1,7 @@
+#!/bin/bash
+#
+echo "Sisesta oma ees- ja perenimi: " # siia sisestad oma nime 
+read varname
+echo "Tere tulemast, $varname" # Masin teretab sind
+#
+#skripti lõpp
