@@ -1,12 +1,12 @@
 #!/bin/bash
-echo "reisijate arv grupis"
+echo "reisijate arv grupis" # kysib mitu reisijat on grupis
 read reisijad 
-echo "kohtade arv bussis"
+echo "kohtade arv bussis" #kysib mitu kohta on bussis
 read kohad
-kohtade_arv=`expr $kohad / $reisijad`
-inimesed=`expr $kohad - $reisijad`
-bussid=`expr $reisijad / $kohad`
-ylejaanud=`expr $reisijad % $kohad`
-echo "Kokku on vaja $bussid taisbussi ja ning ylejaab $ylejaanud"
+kohtade_arv=`expr $kohad / $reisijad` # arvutab kohtade arvu
+inimesed=`expr $kohad - $reisijad` # arvutab inimeste arvu
+bussid=`expr $reisijad / $kohad` # arvutab mitu pussi on vaja
+ylejaanud=`expr $reisijad % $kohad` #arvutab mitu inimest jaab yle
+echo "Kokku on vaja $bussid taisbussi ja ning ylejaab $ylejaanud" # v2ljastab mitu bussi on vaja ning mitu inimest j22b yle
 #
 #skripti lõpp
