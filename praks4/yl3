@@ -1,6 +1,6 @@
 #!/bin/bash
 echo "reisijate arv grupis" # kysib mitu reisijat on grupis
-read reisijad 
+read reisijad
 echo "kohtade arv bussis" #kysib mitu kohta on bussis
 read kohad
 kohtade_arv=`expr $kohad / $reisijad` # arvutab kohtade arvu
