@@ -1,0 +1,15 @@
+#!/bin/bash
+#
+echo "A kylg"
+read A
+echo "B kylg"
+read B
+BSquared=$(($B**2))
+ASquared=$(($A**2))
+CSquared=$(($BSquared+$ASquared))
+Hypot=$(echo "scale=2;sqrt($CSquared)"|bc)
+echo "A = $A"
+echo "B = $B"
+echo "C = $Hypot"
+#
+#
