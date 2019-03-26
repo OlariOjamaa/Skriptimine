@@ -1,15 +1,15 @@
 #!/bin/bash
 #
-echo "A kylg"
+echo "A kylg" # kysib sult A kylje v22rtust
 read A
-echo "B kylg"
+echo "B kylg" # kysib sult B kylje v22rtust
 read B
-BSquared=$(($B**2))
-ASquared=$(($A**2))
-CSquared=$(($BSquared+$ASquared))
-Hypot=$(echo "scale=2;sqrt($CSquared)"|bc)
-echo "A = $A"
-echo "B = $B"
-echo "C = $Hypot"
+BSquared=$(($B**2)) # arvutab B ruudu
+ASquared=$(($A**2)) # arvutab A ruudu
+CSquared=$(($BSquared+$ASquared)) # arvutab hypoteenuse
+Hypot=$(echo "scale=2;sqrt($CSquared)"|bc) # valjastab hypoteenuse t2isarvulised v22rtused
+echo "A = $A" # v2ljastab A v22rtuse
+echo "B = $B" # v2ljastab B v22rtuse
+echo "C = $Hypot" # v2ljastab C v22rtuse
 #
 #
