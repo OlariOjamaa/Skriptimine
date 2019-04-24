@@ -1,0 +1,10 @@
+#!/bin/bash
+#
+echo -n "Sisesta suvaline täisarv: " #suvalise arvu lisamine
+read arv
+jaak=$(( $arv % 2 )) #arvutab jääk 2-ga jagamisel
+if [ $jaak -eq 0 ] #kui jääk on 0 
+then echo "$arv on paaris" #siis arv on paaris
+else echo "$arv on paaritu" #kui ei ole on paaritu
+fi
+#
